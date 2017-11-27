@@ -229,6 +229,8 @@ public class QuizActivity extends AppCompatActivity {
                 is3_2chekced=false;
                 is3_3chekced=false;
                 is3_4chekced=false;
+                  player.stop();
+                  player=null;
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
