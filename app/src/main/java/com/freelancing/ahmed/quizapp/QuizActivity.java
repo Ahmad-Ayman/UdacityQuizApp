@@ -34,35 +34,60 @@ public class QuizActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
-        next=(Button) findViewById(R.id.grades);
         radioGroup = (RadioGroup) findViewById(R.id.radio);
         radioGroup2 = (RadioGroup) findViewById(R.id.radio2);
         radioGroup3 = (RadioGroup) findViewById(R.id.radio3);
         radioGroup4 = (RadioGroup)findViewById(R.id.radio4);
         ans7 = (EditText) findViewById(R.id.answerq7);
         ans8 = (EditText) findViewById(R.id.answerq8);
+        next=(Button) findViewById(R.id.grades);
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                result();
+            }
+        });
+
+    }
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.my_option_menu, menu);
+        return true;
+    }
+    public boolean onOptionsItemSelected(MenuItem item) {
+        //respond to menu item selection
+        switch (item.getItemId()) {
+            case R.id.reset:
+                reset();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+
+
+    }
+
+    private void result (){
+
                 //Question One checking
-                    // get selected radio button from radioGroup
-                    int selectedId = radioGroup.getCheckedRadioButtonId();
-                    // check if correct answer
-                        if(selectedId==R.id.option3) {
-                            grading++;
-                        }
+                // get selected radio button from radioGroup
+                int selectedId = radioGroup.getCheckedRadioButtonId();
+                // check if correct answer
+                if(selectedId==R.id.option3) {
+                    grading++;
+                }
                 //Question Two Checking
-                    ans2_1 = (CheckBox) findViewById(R.id.checkbox1);
-                    ans2_2 = (CheckBox) findViewById(R.id.checkbox2);
-                    ans2_3 = (CheckBox) findViewById(R.id.checkbox3);
-                    ans2_4 = (CheckBox) findViewById(R.id.checkbox4);
-                    is1chekced= ans2_1.isChecked();
-                    is2chekced= ans2_2.isChecked();
-                    is3chekced= ans2_3.isChecked();
-                    is4chekced= ans2_4.isChecked();
-                    if(is1chekced==false && is2chekced == false && is3chekced==false && is4chekced == true){
-                        grading++;
-                    }
+                ans2_1 = (CheckBox) findViewById(R.id.checkbox1);
+                ans2_2 = (CheckBox) findViewById(R.id.checkbox2);
+                ans2_3 = (CheckBox) findViewById(R.id.checkbox3);
+                ans2_4 = (CheckBox) findViewById(R.id.checkbox4);
+                is1chekced= ans2_1.isChecked();
+                is2chekced= ans2_2.isChecked();
+                is3chekced= ans2_3.isChecked();
+                is4chekced= ans2_4.isChecked();
+                if(is1chekced==false && is2chekced == false && is3chekced==false && is4chekced == true){
+                    grading++;
+                }
                 //Question Three Checking
                 ans3_1 = (CheckBox) findViewById(R.id.checkbox2_1);
                 ans3_2 = (CheckBox) findViewById(R.id.checkbox2_2);
@@ -144,45 +169,45 @@ public class QuizActivity extends AppCompatActivity {
                     {
                         public void onClick(DialogInterface dialog, int id)
                         {
-                           QuizActivity.super.onBackPressed();
+                            QuizActivity.super.onBackPressed();
                             player.stop();
                             player=null;
                         }
                     });
                     alert.setNeutralButton("Reset",
                             new DialogInterface.OnClickListener()
-                        {
-                            public void onClick(DialogInterface dialog, int id)
                             {
-                                dialog.cancel();
-                                grading=0;
-                                // reseting every items
-                                ans2_1.setChecked(false);
-                                ans2_2.setChecked(false);
-                                ans2_3.setChecked(false);
-                                ans2_4.setChecked(false);
-                                ans3_1.setChecked(false);
-                                ans3_2.setChecked(false);
-                                ans3_3.setChecked(false);
-                                ans3_4.setChecked(false);
-                                radioGroup.clearCheck();
-                                radioGroup2.clearCheck();
-                                radioGroup3.clearCheck();
-                                radioGroup4.clearCheck();
-                                ans7.setText("");
-                                ans8.setText("");
-                                is1chekced=false;
-                                is2chekced=false;
-                                is3chekced=false;
-                                is4chekced=false;
-                                is3_1chekced=false;
-                                is3_2chekced=false;
-                                is3_3chekced=false;
-                                is3_4chekced=false;
-                                player.stop();
-                                player=null;
-                            }
-                        });
+                                public void onClick(DialogInterface dialog, int id)
+                                {
+                                    dialog.cancel();
+                                    grading=0;
+                                    // reseting every items
+                                    ans2_1.setChecked(false);
+                                    ans2_2.setChecked(false);
+                                    ans2_3.setChecked(false);
+                                    ans2_4.setChecked(false);
+                                    ans3_1.setChecked(false);
+                                    ans3_2.setChecked(false);
+                                    ans3_3.setChecked(false);
+                                    ans3_4.setChecked(false);
+                                    radioGroup.clearCheck();
+                                    radioGroup2.clearCheck();
+                                    radioGroup3.clearCheck();
+                                    radioGroup4.clearCheck();
+                                    ans7.setText("");
+                                    ans8.setText("");
+                                    is1chekced=false;
+                                    is2chekced=false;
+                                    is3chekced=false;
+                                    is4chekced=false;
+                                    is3_1chekced=false;
+                                    is3_2chekced=false;
+                                    is3_3chekced=false;
+                                    is3_4chekced=false;
+                                    player.stop();
+                                    player=null;
+                                }
+                            });
 
                     alert.show();
                     grading = 0;
@@ -192,50 +217,34 @@ public class QuizActivity extends AppCompatActivity {
                     grading = 0;
                 }
 
-            }
-        });
     }
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.my_option_menu, menu);
-        return true;
-    }
-    public boolean onOptionsItemSelected(MenuItem item) {
-        //respond to menu item selection
-        switch (item.getItemId()) {
-            case R.id.reset:
-                grading=0;
-               // private RadioGroup radioGroup,radioGroup2,radioGroup3,radioGroup4;
+    private void reset(){
+        grading=0;
+        // private RadioGroup radioGroup,radioGroup2,radioGroup3,radioGroup4;
 
-                ans2_1.setChecked(false);
-                ans2_2.setChecked(false);
-                ans2_3.setChecked(false);
-                ans2_4.setChecked(false);
-                ans3_1.setChecked(false);
-                ans3_2.setChecked(false);
-                ans3_3.setChecked(false);
-                ans3_4.setChecked(false);
-                radioGroup.clearCheck();
-                radioGroup2.clearCheck();
-                radioGroup3.clearCheck();
-                radioGroup4.clearCheck();
-                ans7.setText("");
-                ans8.setText("");
-                is1chekced=false;
-                is2chekced=false;
-                is3chekced=false;
-                is4chekced=false;
-                is3_1chekced=false;
-                is3_2chekced=false;
-                is3_3chekced=false;
-                is3_4chekced=false;
-                  player.stop();
-                  player=null;
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
-
-
+        ans2_1.setChecked(false);
+        ans2_2.setChecked(false);
+        ans2_3.setChecked(false);
+        ans2_4.setChecked(false);
+        ans3_1.setChecked(false);
+        ans3_2.setChecked(false);
+        ans3_3.setChecked(false);
+        ans3_4.setChecked(false);
+        radioGroup.clearCheck();
+        radioGroup2.clearCheck();
+        radioGroup3.clearCheck();
+        radioGroup4.clearCheck();
+        ans7.setText("");
+        ans8.setText("");
+        is1chekced=false;
+        is2chekced=false;
+        is3chekced=false;
+        is4chekced=false;
+        is3_1chekced=false;
+        is3_2chekced=false;
+        is3_3chekced=false;
+        is3_4chekced=false;
+        player.stop();
+        player=null;
     }
 }
