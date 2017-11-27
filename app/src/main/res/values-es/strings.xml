@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Quiz App</string>
+    <string name="harrydesc">Quiz Harry Potter es simplemente un juego, un juego que determinan cuánto PotterHead eres, hay 8 preguntas, cada pregunta tiene una puntuación de 1 punto, recoger tantos puntos como puedas para demostrar que son una verdadera PotterHead, en la parte superior de la pantalla encontrarás tu puntuación actual de 8 junto con el resultado de su respuesta a la pregunta actual o un mensaje de respuesta correcta si responde correctamente la pregunta o la respuesta correcta si su respuesta es incorrecta. en al final del cuestionario encontrará su puntuación final junto con otra sorpresa.. llegue al final y podrá averiguarlo.</string>
+    <string name="ready">¿Estás listo para comenzar el cuestionario!!</string>
+    <string name="btnstart">Iniciar el quiz</string>
+    <string name="answer1_1">Dieciséis</string>
+    <string name="answer1_2">Diecisiete</string>
+    <string name="answer1_3">Quince</string>
+    <string name="answer1_4">Doce</string>
+    <string name="answer3_1">Costura</string>
+    <string name="answer3_2">Viajes</string>
+    <string name="answer3_3">Ajedrez asistente</string>
+    <string name="answer3_4">Pulsar flores silvestres</string>
+    <string name="answer4_1">Un poco de quien desea convertir en</string>
+    <string name="answer4_4">Newt bazo</string>
+    <string name="btntext">Calcular el resultado</string>
+    <string name="hint">Respuesta Aquí</string>
+    <string name="question1">¿Cuántos broomsticks son trasladados en un juego completo de Quidditch?</string>
+    <string name="question3">Seleccione todos los que apliquen: ¿Cuáles son dos de las aficiones del profesor Quirrell conocido?</string>
+    <string name="question2">Seleccione todos los que apliquen: que no son contraseñas para entrar en la oficina de Dumbledore?</string>
+    <string name="question4">Que la poción Polyjuice ingredientes deben ser adquiridos durante la luna llena?</string>
+    <string name="question5">Verdadero o Falso: La esposa de Aragog se llama Mosag?</string>
+    <string name="question6">¿Qué casa era gemir Myrtle ordenados en?</string>
+    <string name="question7">¿Qué hace el profesor Lupin Dan Harry a comer después de su encuentro con un Dementor?</string>
+    <string name="question8">¿Qué número es el Harry\'s vault en el banco mágico Gringotts?</string>
+    <string name="answer5_1">Verdadero</string>
+    <string name="answer5_2">Falso</string>
+    <string name="toastss">Su grado es: <xliff:g id="gradde" example="4">%d</xliff:g> / 8 puntos</string>
+</resources>

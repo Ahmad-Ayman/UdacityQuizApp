@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Quiz App</string>
+    <string name="harrydesc">Quiz Harry Potter n\'est qu\'un jeu, un jeu qui déterminent la quantité de PotterHead vous êtes, il y a 8 questions, chaque question ont un score de 1 point, de recueillir autant de points que vous pouvez prouver que vous êtes un vrai PotterHead, en haut de l\'écran, vous trouverez votre score actuel de 8 le long du côté avec le résultat de votre réponse à la question actuelle soit une bonne réponse message si vous répondez correctement à la question, ou la bonne réponse si votre réponse est incorrecte.\\nat le fin du questionnaire, vous trouverez votre score final le long du côté avec une autre surprise.. arriver à la fin et vous allez comprendre.</string>
+    <string name="ready">Êtes-vous prêt à démarrer le quiz ! !</string>
+    <string name="btnstart">Quiz de début</string>
+    <string name="answer1_1">Seize</string>
+    <string name="answer1_2">Dix-sept</string>
+    <string name="answer1_3">Quinze</string>
+    <string name="answer1_4">Douze</string>
+    <string name="answer3_1">Broderie</string>
+    <string name="answer3_2">voyager</string>
+    <string name="answer3_3">échecs Assistant</string>
+    <string name="answer3_4">Appuyant sur les fleurs sauvages</string>
+    <string name="answer4_1">Un peu de qui que vous souhaitez transformer en</string>
+    <string name="answer4_4">La rate Newt</string>
+    <string name="answer5_1">Vrai</string>
+    <string name="answer5_2">Faux</string>
+    <string name="btntext">Calculer Suite</string>
+    <string name="hint">Réponse ici</string>
+    <string name="question1">Combien de balais sont exploités dans un jeu complet de Quidditch ?</string>
+    <string name="question2">Sélectionnez toutes les réponses applicables : qui ne sont pas des mots de passe pour entrer dans le bureau de Dumbledore ?</string>
+    <string name="question3">Sélectionnez toutes les réponses applicables : Quelles sont les deux du passe-temps connu du professeur Quirrell ?</string>
+    <string name="question4">Polynectar dont les ingrédients doivent être acquis à la pleine lune ?</string>
+    <string name="question5">Vrai ou faux : la femme d\'Aragog est appelé Mosag ?</string>
+    <string name="question6">Quelle maison était Myrtle de gémissement triées en ?</string>
+    <string name="question7">Qu\'est-ce que le Professeur Lupin donner à Harry de manger après sa rencontre avec un Détraqueur ?</string>
+    <string name="question8">Quel nombre est Harry\'s vault à la banque des sorciers Gringotts ?</string>
+    <string name="toastss">Votre grade est: <xliff:g id="gradde" example="4">%d</xliff:g> / 8 points</string>
+</resources>

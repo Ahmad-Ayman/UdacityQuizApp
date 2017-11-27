@@ -1,0 +1,49 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">PotterQuiz</string>
+    <string name="splashTxt">Harry Potter Quiz</string>
+    <string name="harrydesc">Harry Potter Quiz is simply a game, a game that determine how much PotterHead you are, there are 8 questions, Every question have a score of 1 point, collect as many points as you can to prove you are a REAL PotterHead, at the top of the screen you will find your current score out of 8 also the result of your answer for the current question either a correct answer message if you answer the question correctly, or the right answer if your answer is wrong.\nat the end of the Quiz you will find your final score along side with another surprise.. reach the end and you will figure it out.</string>
+    <string name="ready">Are you ready to start The QUIZ!!</string>
+    <string name="btnstart">Start Quiz</string>
+    <string name="title_activity_quizz">QuizzActivity</string>
+
+    <string name="question1">How many broomsticks are flown in a full game of Quidditch?</string>
+    <string name="answer1_1">Sixteen</string>
+    <string name="answer1_2">Seventeen</string>
+    <string name="answer1_3">Fifteen</string>
+    <string name="answer1_4">Twelve</string>
+
+    <string name="question2">Select all that apply: Which are NOT passwords to get into Dumbledore\'s office?</string>
+    <string name="answer2_1">Cockroach Cluster</string>
+    <string name="answer2_2">Sherbet Lemon</string>
+    <string name="answer2_3">Fizzing Whizzbee</string>
+    <string name="answer2_4">Liquorice Wand</string>
+
+    <string name="question3">Select all that apply: What are two of the known hobbies of Professor Quirrell?</string>
+    <string name="answer3_1">Needlework</string>
+    <string name="answer3_2">Travel</string>
+    <string name="answer3_3">Wizard chess</string>
+    <string name="answer3_4">Pressing wildflowers</string>
+
+    <string name="question4">Which Polyjuice Potion ingredients must be acquired at the full moon?</string>
+    <string name="answer4_1">A bit of whoever you wish to turn into</string>
+    <string name="answer4_2">Knotgrass</string>
+    <string name="answer4_3">fluxweed</string>
+    <string name="answer4_4">Newt spleen</string>
+
+    <string name="question5">True or False: Aragog\'s wife is called Mosag?</string>
+    <string name="answer5_1">True</string>
+    <string name="answer5_2">False</string>
+
+    <string name="question6">What house was Moaning Myrtle sorted into?</string>
+    <string name="answer6_1">Hufflepuff</string>
+    <string name="answer6_2">Ravenclaw</string>
+    <string name="answer6_3">Gryffindor</string>
+    <string name="answer6_4">Slytherin</string>
+
+
+    <string name="question7">What does Professor Lupin give Harry to eat after his encounter with a Dementor?</string>
+    <string name="question8">What number is Harry\'s vault at the Gringotts Wizarding Bank?</string>
+    <string name="btntext">Calculate Result</string>
+    <string name="hint">Answer Here</string>
+    <string name="toastss">Your Grade is: <xliff:g id="gradde" example="4">%d</xliff:g> / 8 points</string>
+</resources>

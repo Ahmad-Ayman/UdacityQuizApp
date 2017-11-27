@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="defaultmargin">16dp</dimen>
+    <dimen name="default2">24dp</dimen>
+    <dimen name="twentythree">23sp</dimen>
+    <dimen name="twenty">20sp</dimen>
+    <dimen name="eighteen">18sp</dimen>
+    <dimen name="largemargin">250dp</dimen>
+    <dimen name="largewidth">200dp</dimen>
+    <dimen name="largeheight">300dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+</resources>

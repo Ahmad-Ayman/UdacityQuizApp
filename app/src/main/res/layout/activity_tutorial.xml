@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.freelancing.ahmed.quizapp.TutorialActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/tutorialimage"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/largemargin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/default2"
+            android:layout_marginTop="@dimen/defaultmargin"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:id="@+id/harrydescTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tutorialimage"
+            android:layout_marginEnd="@dimen/defaultmargin"
+            android:layout_marginStart="@dimen/defaultmargin"
+            android:layout_marginBottom="@dimen/defaultmargin"
+            android:textColor="@color/colorAccent"
+            android:text="@string/splashTxt"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/harrydesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/harrydescTitle"
+            android:layout_marginEnd="@dimen/defaultmargin"
+            android:layout_marginStart="@dimen/defaultmargin"
+            android:layout_marginBottom="@dimen/defaultmargin"
+            android:textColor="@color/colorAccent"
+            android:text="@string/harrydesc"
+            android:textStyle="bold"
+            android:textSize="@dimen/eighteen"
+            android:gravity="start"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ready"
+            android:layout_below="@id/harrydesc"
+            android:layout_marginTop="@dimen/default2"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/twenty"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/default2"
+            android:id="@+id/readdy"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/defaultmargin"
+            android:background="@color/btncolor"
+            android:textColor="@android:color/white"
+            android:text="@string/btnstart"
+            android:layout_below="@id/readdy"
+            android:layout_marginEnd="@dimen/defaultmargin"
+            android:layout_marginStart="@dimen/defaultmargin"
+            android:layout_marginBottom="@dimen/default2"
+            android:textAllCaps="false"
+            android:textSize="@dimen/twentythree"
+            android:id="@+id/startbtn"
+            />
+    </RelativeLayout>
+</ScrollView>

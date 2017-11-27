@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Quiz App</string>
+    <string name="harrydesc">"اختبار هاري بوتر؛ ببساطة هي عبارة عن لعبة ؛ والهدف منها هو تحديد درجتك كعاشق للعالم السحري الخاص بهاري بوتر, اللعبة عبارة عن 8 اسئلة, كل سؤال بنقطة واحدة, جمع اكبر عدد من النقاط من الأسئلة علشان تثبت انك من عشاق هاري بوتر, في اول الشاشة من فوق هتلاقي نتيجتك الحالية من 8 وكمان الاجابة الصحيحة لو كنت جاوبت غلط علي السؤال الحالي او دليل انك جاوبت صح لو كانت اجابتك صحيحة  في نهاية الاختبار هتلاقي درجتك النهائية كام ومعاها مفاجأة  هتعرفها لما توصل للنهاية "</string>
+    <string name="ready">مستعد لبدأ الاختبار؟</string>
+    <string name="splashTxt">اختبار هاري بوتر</string>
+    <string name="btnstart">ابدأ الاختبار</string>
+    <string name="toastss">درجتك هي: <xliff:g id="gradde" example="4">%d</xliff:g> / 8 نقطة</string>
+    <string name="hint">إجابتك هنا</string>
+    <string name="question1">كم عدد المكانس في مباراة الكويدتش؟</string>
+    <string name="question2">اختر كل ما يجوز: ما هي الكلمة التي لا تعتبر كلمة سر لدخول مكتب دمبلدور؟</string>
+    <string name="question3">اختر كل ما يجوز: اختر اثنين من الهوايات المعروفة لبروفيسور كويرل</string>
+    <string name="question4">ما هو المكون اللازم لصنع وصفة البولي جوس في ليلة اكتمال القمر؟</string>
+    <string name="question5">صح ام خطأ؟ زوحة اراجوج تدعى موساج؟</string>
+    <string name="question6">ما هو منزل ميرتل الناحبة؟</string>
+    <string name="question7">ماذا اعطى بروفيسور لوبين لهاري ليأكله عندما واجه الديمنتور؟</string>
+    <string name="question8">ما هو رقم خزنة هاري في بنك جرينجوتس السحري؟</string>
+    <string name="btntext">احسب النتيجة</string>
+    <string name="answer5_1">صح</string>
+    <string name="answer5_2">خطأ</string>
+    <string name="answer3_2">السفر</string>
+    <string name="answer3_1">التطريز</string>
+    <string name="answer3_3">شطرنج السحرة</string>
+    <string name="answer3_4">جمع النباتات البرية</string>
+    <string name="answer4_4">طحال سمندل الماء</string>
+    <string name="answer4_3">الفلاكسويد</string>
+    <string name="answer4_1">قطعة من الشئ الذي تريد التحول إليه</string>
+    <string name="answer6_1">هافلباف</string>
+    <string name="answer6_2">ريفنكلو</string>
+    <string name="answer6_3">جريفندور</string>
+    <string name="answer6_4">سليزرين</string>
+    <string name="answer1_1">ستة عشر</string>
+    <string name="answer1_2">سبعة عشر</string>
+    <string name="answer1_3">خمسة عشر</string>
+    <string name="answer1_4">اثنا عشر</string>
+</resources>
