@@ -33,11 +33,11 @@ If your device is in English you will find everything in the app in English, als
 
 # APK File 
 
-To download the APK File for this Application : <b><a href="https://goo.gl/H3qf8p">CLICK HERE</a></b>
+To download the APK File for this Application : <b><a href="https://drive.google.com/open?id=1OnQKlKsqfEuwOlqVMIiHD-c-NCqLJ5A8">CLICK HERE</a></b>
 
 # Contacts
 
-My C.V: <b><a href="https://drive.google.com/open?id=1OnQKlKsqfEuwOlqVMIiHD-c-NCqLJ5A8">Ahmed Ayman Abd El-Moneim</a></b></br>
+My C.V: <b><a href="https://drive.google.com/open?id=1Ay_HmJfQscK5LtK1H07x4EI-_GYx1OLO">Ahmed Ayman Abd El-Moneim</a></b></br>
 Facebook: <b><a href="https://www.facebook.com/a.ayman1996">        Ahmed Ayman Abd El-Moneim</a></b></br>
 Twitter:  <b><a href="https://twitter.com/Ahmeda1708">          Ahmed Ayman </a></b></br>
 LinkedIn: <b><a href="https://www.linkedin.com/in/ahmeda1708/"> Ahmed Ayman </a></b></br>
