@@ -24,53 +24,55 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/tutorialimage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/defaultmargin"
             android:layout_marginEnd="@dimen/defaultmargin"
             android:layout_marginStart="@dimen/defaultmargin"
-            android:layout_marginBottom="@dimen/defaultmargin"
-            android:textColor="@color/colorAccent"
+            android:gravity="center"
             android:text="@string/splashTxt"
-            android:layout_centerHorizontal="true"
-            android:gravity="center"/>
+            android:textColor="@color/colorAccent" />
+
         <TextView
             android:id="@+id/harrydesc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/harrydescTitle"
+            android:layout_marginBottom="@dimen/defaultmargin"
             android:layout_marginEnd="@dimen/defaultmargin"
             android:layout_marginStart="@dimen/defaultmargin"
-            android:layout_marginBottom="@dimen/defaultmargin"
-            android:textColor="@color/colorAccent"
+            android:gravity="start"
             android:text="@string/harrydesc"
-            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
             android:textSize="@dimen/eighteen"
-            android:gravity="start"/>
+            android:textStyle="bold" />
+
         <TextView
+            android:id="@+id/readdy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/ready"
             android:layout_below="@id/harrydesc"
+            android:layout_marginBottom="@dimen/default2"
             android:layout_marginTop="@dimen/default2"
+            android:gravity="center"
+            android:text="@string/ready"
             android:textColor="@android:color/black"
             android:textSize="@dimen/twenty"
-            android:textStyle="bold"
-            android:gravity="center"
-            android:layout_marginBottom="@dimen/default2"
-            android:id="@+id/readdy"/>
+            android:textStyle="bold" />
+
         <Button
+            android:id="@+id/startbtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="@dimen/defaultmargin"
-            android:background="@color/btncolor"
-            android:textColor="@android:color/white"
-            android:text="@string/btnstart"
             android:layout_below="@id/readdy"
+            android:layout_marginBottom="@dimen/default2"
             android:layout_marginEnd="@dimen/defaultmargin"
             android:layout_marginStart="@dimen/defaultmargin"
-            android:layout_marginBottom="@dimen/default2"
+            android:layout_marginTop="@dimen/defaultmargin"
+            android:background="@color/btncolor"
+            android:text="@string/btnstart"
             android:textAllCaps="false"
-            android:textSize="@dimen/twentythree"
-            android:id="@+id/startbtn"
-            />
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/twentythree" />
     </RelativeLayout>
 </ScrollView>
